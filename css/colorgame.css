@@ -1,9 +1,9 @@
-body{
+body {
   background-color: #232323;
   font-family: "montserrat", "Avenir";
-
 }
-h1{
+
+h1 {
   line-height: 1.1;
   color: white;
   font-weight: normal;
@@ -14,7 +14,8 @@ h1{
   padding:20px 0px;
   transition: background-color .5s;
 }
-button{
+
+button {
   border: none;
   background: none;
   text-transform: uppercase;
@@ -26,15 +27,18 @@ button{
   transition: all .5s;
   outline: none;
 }
-button:hover{
+
+button:hover {
   background-color: steelblue;
   color: white;
 }
-.active{
+
+.active {
   background-color: steelblue;
   color: white;
 }
-.square{
+
+.square {
   width: 30%;
   background: purple;
   padding-bottom: 30%;
@@ -45,22 +49,24 @@ button:hover{
   -webkit-transition:background-color 0.5s;
   -moz-transition:background-color 0.5s;
 }
-#container{
+
+#container {
   margin: 20px auto;
   max-width: 600px;
 }
 
-#stripe{
+#stripe {
   margin-top: 0px;
   background-color: white;
   height: 30px;
   text-align: center;
 }
-#pickedOne{
+
+#pickedOne {
   font-size: 200%;
 }
-#check{
+
+#check {
   display: inline-block;
   width: 20%;
 }
-
